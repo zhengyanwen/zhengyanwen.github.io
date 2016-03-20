@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="txt">
+	<input type="button" value="前面添加节点" id="qj">
+	<input type="button" value="后面添加节点" id="hj">
+
+	<ul id="hh">
+		<li>啦啦</li>
+		<li>吼吼</li>
+		<li>嘻嘻</li>
+	</ul>
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+	$("#qj").click(function(){
+		var value = $("#txt").val(); 
+		var li = "<li>" + value + "</li>";
+		$("#hh").prepend(lis);
+	})
+	$("#hj").click(function(){
+		var value = $("#txt").val(); 
+		var li = "<li>" + value + "</li>";
+		$("#hh").append(li);
+	})
+
+	</script>
+</body>
+</html>

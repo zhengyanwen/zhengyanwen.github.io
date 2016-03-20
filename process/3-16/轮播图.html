@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	#box{
+		height: 200px;
+		width: 200px;
+		border: 1px solid #f00;
+		overflow: hidden;
+	}
+	#box .box1{
+		height: 200px;
+		width: 1000px;
+	}
+	#box img{
+		float: left;
+	}
+
+	</style>
+</head>
+<body>
+
+	<div id="box">
+		<div class="box1">
+			<img src="images/1.jpg">
+			<img src="images/2.jpg">
+			<img src="images/3.jpg">
+			<img src="images/4.jpg">
+			<img src="images/5.jpg">
+		</div>
+	</div>
+
+	<input class="lb1" type="button" value="1">
+	<input class="lb2" type="button" value="2">
+	<input class="lb3" type="button" value="3">
+	<input class="lb4" type="button" value="4">
+	<input class="lb5" type="button" value="5">
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+	$(".lb1").click(function(){
+		$(".box1").animate({"margin-left":"0px"},2000)
+	})
+	$(".lb2").click(function(){
+		$(".box1").animate({"margin-left":"-200px"},2000)
+	})
+	$(".lb3").click(function(){
+		$(".box1").animate({"margin-left":"-400px"},2000)
+	})
+	$(".lb4").click(function(){
+		$(".box1").animate({"margin-left":"-600px"},2000)
+	})
+	$(".lb5").click(function(){
+		$(".box1").animate({"margin-left":"-800px"},2000)
+	})
+
+	</script>
+	
+</body>
+</html>

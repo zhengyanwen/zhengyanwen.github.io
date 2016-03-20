@@ -1,0 +1,210 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#header{
+	width: 1078px;
+	height: 80px;
+	margin: 0 auto;
+}
+@font-face{
+	font-family: Chunkfive;
+	src:url(../font/Chunkfive.otf);
+}
+#header .logo{
+	height: 80px;
+	width: 179px;
+	margin-left: 70px;
+	background-color: #db373b;
+	font-family: Chunkfive;
+	font-size: 28px;
+	float: left;
+}
+#header .logo p{
+	line-height: 80px;
+	padding-left: 25px;
+	color: #fff;
+	
+}
+#header .nav{
+	float: left;
+	font-family: Helvetica;
+	font-size: 18px;
+	list-style: none;
+}
+#header .nav li{
+	float: left;
+	margin-left: 42px;
+	margin-top: 34px;
+	padding-bottom:7px;
+}
+#header .nav li:hover{
+	border-bottom:4px solid #000;
+	
+	}
+#canner{
+	width: 1080px;
+	height: 513px;
+	margin: 0 auto;
+	margin-top: 28px;
+}
+#canner .sjz{
+	width: 28px;
+	float: left;
+}
+#canner .sjz img{
+	margin-top: 183px;
+}
+#canner .canner2{
+	float: left;
+	width: 553px;
+}
+#canner .canner2 h1{
+	font-family: ChunkFive;
+	font-size: 48px;
+	margin-top: 32px;
+	margin-left: 53px;
+}
+#canner .canner2 p{
+	font-family: Times New Roman;
+	font-size: 18px;
+	margin-top: 24px;
+	margin-left: 53px;
+}
+#canner .canner2 .canner2-2 img{
+	margin-top: 111px;
+	margin-left: 53px;
+}
+#canner .canner3{
+	float: left;
+	margin-top: 28px;
+	margin-left: 43px;
+}
+#canner .sjy{
+	width: 28px;
+	float: left;
+	margin-left: 52px;
+	margin-top: 183px;
+}
+.yuan{
+	width: 126px;
+	height: 128px;
+	margin-top: 53px;
+	margin: 0 auto;
+
+
+}
+.yuan li{
+	float: left;
+	list-style: none;
+	padding-left: 11px;
+	line-height: 128px;
+}
+#footer .footer0{
+	height: 389px;
+	background-image: url(../images/bjhei.gif);
+}
+#footer .footer1{
+	height: 389px;
+	width: 908px;
+	margin: 0 auto;
+	color: #fff;
+}
+#footer .footer1 .footer1-1{
+	width: 560px;
+	float: left;
+}
+#footer .footer1 .footer1-1 h1{
+	font-family: ChunkFive;
+	font-size: 24px;
+	padding-top: 46px;
+}
+#footer .footer1 .footer1-1 p{
+	font-family: ChunkFive;
+	font-size: 16px;
+	padding-top: 37px;
+}
+#footer .footer1 .footer1-2{
+	float: left;
+	margin-left: 42px;
+}
+#footer .footer1 .footer1-2 h2{
+	font-family: ChunkFive;
+	font-size: 24px;
+	padding-top: 46px;
+
+}
+span{
+	display: block;
+	
+}
+#footer .footer1 .footer1-2 .f1{
+	list-style: none;
+	width: 60px;
+	margin: 0 auto;
+	float: left;
+	margin-top: 27px;
+}
+#footer .footer1 .footer1-2 .f1 li{
+	background-image: url(../images/yuan.gif);
+	height: 60px;
+	margin-top: 10px;
+	font-family: DroidSerif-Italics;
+	font-size: 14px;
+}
+#footer .footer1 .footer1-2 .f1 li a{
+	color: #fff;
+	display: block;
+	padding-top: 14px;
+	padding-left: 20px;
+	text-decoration: none;
+	font-family: DroidSerif-Italics;
+	font-size: 14px;
+}
+#footer .footer1 .footer1-2 .f2{
+	list-style: none;
+	float: left;
+	margin-top: 10px;
+
+}
+#footer .footer1 .footer1-2 .f2 .wenzi .f2-1{
+	color: #565756;
+	font-family: DroidSerif-Italics;
+	font-size: 16px;
+}
+#footer .footer1 .footer1-2 .f2 .wenzi .f2-2{
+	font-family: DroidSerif-Italics;
+	font-size: 14px;
+	margin-top: 10px;
+}
+#footer .footer1 .footer1-2 .f2 .wenzi{
+    padding-left: 21px;
+    margin-top: 32px;
+}
+#footer .footer01{
+	height: 90px;
+	background-image: url(../images/bjx.gif);
+	background-repeat: repeat-x;
+	font-family: Arial;
+	font-size: 14px;
+	
+}
+#footer .footer01 .footer01-1{
+	width: 939px;
+	height: 90px;
+	color: #fff;
+	margin: 0 auto;
+}
+#footer .footer01 p{
+	float: left;
+	line-height: 90px;
+}
+#footer .footer01 ul{
+	list-style: none;
+}
+#footer .footer01 ul li{
+	float: right;
+	line-height: 90px;
+	margin-left: 21px;
+
+}

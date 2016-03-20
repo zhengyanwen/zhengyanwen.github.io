@@ -1,0 +1,171 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	font-family: FZWBJW;
+	src:url("../font/FZWBJW.TTF");
+}
+#bj1{
+	height: 1145px;
+	background-image: url(../images/bj1.jpg);
+}
+#bj1 .top{
+	height: 41px;
+	width: 1170px;
+	margin: 0 auto;
+}
+#bj1 .top .fz{
+	width: 57px;
+	float: left;
+	border-right: 1px solid #2e2a2a;
+}
+#bj1 .top .fz img{
+	margin-left: 10px;
+	margin-top: 15px;
+}
+#bj1 .top .top-1{
+	color: #9e9e9e;
+	float: left;
+	font-family:"Comic Sans MS", cursive;
+	line-height: 41px;
+	margin-left: 27px;
+}
+#bj1 .top .top-2{
+	float: left;
+	margin-left: 600px;
+	color: #9e9e9e;
+	font-family:"Comic Sans MS", cursive;
+	line-height: 41px;
+}
+#bj1 .top .fh{
+	width: 57px;
+	height: 33px;
+	float: right;
+	border-left: 1px solid #2e2a2a;
+}
+#bj1 .top .fh img{
+	height: 15px;
+	width: 17px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+#bj1 .header{
+	height: 84px;
+	background-color: #f25c27;
+}
+#bj1 .header .header1{
+	width: 1170px;
+	height: 84px;
+	margin: 0 auto;
+}
+#bj1 .header .header1 h1{
+	font-family:"Comic Sans MS", cursive;
+	color: #231e1b;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 84px;
+	width: 296px;
+	float: left;
+}
+#bj1 .header .header2{
+	width: 680px;
+	height: 84px;
+	float: right;
+}
+#bj1 .header .header2 li{
+	list-style: none;
+	width: 114px;
+	float: none;
+	float: left;
+	line-height: 84px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	margin: 0 auto;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+#bj1 .header .header2 li .navmax{
+	height: 84px;
+	width: 114px;
+}
+#bj1 .header .header2 .header2-1{
+	width: 140px;
+}
+#bj1 .header .header2 .header2-11{
+	width: 140px;
+}
+#bj1 .header .header2 .header2-1 img{
+	position: relative;
+	top: 20px;
+	left: -45px;
+}
+#bj1 .header .header2 li a{
+	color: #fff;
+	text-decoration:none;
+}
+#bj1 .header .hide{
+	width: 140px;
+	height: 160px;
+	background-color: #000;
+	list-style: none;
+	position: absolute;
+	top: 125px;
+	left: 922px;
+	display: none;
+}
+#bj1 .header .hide li{
+	margin-top: 10px;
+	text-align: center;
+}
+#bj1 .header .hide a{
+	color: #fff;
+	text-decoration: none;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size: 10px;
+}
+#bj1 .header .hide a .pro{
+	width: 140px;
+	height: 19px;
+}
+h2{
+	color: #fd562a;
+	width: 1170px;
+	height: 50px;
+	margin: 0 auto;
+	padding-top: 28px;
+	font-size: 40px;
+}
+.tupian{
+	width: 1170px;
+	margin: 0 auto;
+}
+.tupian li{
+	width: 270px;
+	height: 192px;
+	float: left;
+	list-style: none;
+	margin-top: 30px;
+}
+.tupian li a{
+	width: 270px;
+	height: 192px;
+}
+.tupian .pianyi{
+	margin-left: 30px;
+}
+#footer{
+	width: 1170px;
+	height: 70px;
+	margin: 0 auto;
+}
+#footer p{
+	float: left;
+	line-height: 70px;
+	color: #49403b; 
+}
+#footer img{
+	float: right;
+	margin-top: 21px;
+	line-height: 70px;
+}

@@ -1,0 +1,388 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	font-family: FZWBJW;
+	src:url("../font/FZWBJW.TTF");
+}
+#bj1{
+	height: 737px;
+	background-image: url(../images/bj1.jpg);
+}
+#bj1 .top{
+	height: 41px;
+	width: 1170px;
+	margin: 0 auto;
+}
+#bj1 .top .fz{
+	width: 57px;
+	float: left;
+	border-right: 1px solid #2e2a2a;
+}
+#bj1 .top .fz img{
+	margin-left: 10px;
+	margin-top: 15px;
+}
+#bj1 .top .top-1{
+	color: #9e9e9e;
+	float: left;
+	font-family:"Comic Sans MS", cursive;
+	line-height: 41px;
+	margin-left: 27px;
+}
+#bj1 .top .top-2{
+	float: left;
+	margin-left: 600px;
+	color: #9e9e9e;
+	font-family:"Comic Sans MS", cursive;
+	line-height: 41px;
+}
+#bj1 .top .fh{
+	width: 57px;
+	height: 33px;
+	float: right;
+	border-left: 1px solid #2e2a2a;
+}
+#bj1 .top .fh img{
+	height: 15px;
+	width: 17px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+#bj1 .header{
+	height: 84px;
+	background-color: #f25c27;
+}
+#bj1 .header .header1{
+	width: 1170px;
+	height: 84px;
+	margin: 0 auto;
+}
+#bj1 .header .header1 h1{
+	font-family:"Comic Sans MS", cursive;
+	color: #231e1b;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 84px;
+	width: 296px;
+	float: left;
+}
+#bj1 .header .header2{
+	width: 680px;
+	height: 84px;
+	float: right;
+}
+#bj1 .header .header2 li{
+	list-style: none;
+	width: 114px;
+	float: none;
+	float: left;
+	line-height: 84px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+	margin: 0 auto;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+#bj1 .header .header2 li .navmax{
+	height: 84px;
+	width: 114px;
+}
+#bj1 .header .header2 .header2-1{
+	width: 140px;
+}
+#bj1 .header .header2 .header2-11{
+	width: 140px;
+}
+#bj1 .header .header2 .header2-1 img{
+	position: relative;
+	top: 20px;
+	left: -45px;
+}
+#bj1 .header .header2 li a{
+	color: #fff;
+	text-decoration:none;
+}
+#bj1 .header .hide{
+	width: 140px;
+	height: 160px;
+	background-color: #000;
+	list-style: none;
+	position: absolute;
+	top: 125px;
+	left: 922px;
+	display: none;
+}
+#bj1 .header .hide li{
+	margin-top: 10px;
+	text-align: center;
+}
+#bj1 .header .hide a{
+	color: #fff;
+	text-decoration: none;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size: 10px;
+}
+#bj1 .header .hide a .pro{
+	width: 140px;
+	height: 19px;
+}
+#bj1 .dtp{
+	height: 393px;
+	width: 1170px;
+	margin: 0 auto;
+}
+#bj1 .dtp .dtp1{
+	height: 393px;
+	width: 1170px;
+	margin-top: 35px;
+}
+#bj1 .dtp .dtp1 li{
+	float: left;
+	width: 234px;
+	height: 393px;
+	list-style: none;
+	overflow: hidden;
+}
+#bj1 .dreamer{
+	width: 1170px;
+	height: 90px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+#bj1 .dreamer h2{
+	color: #f75b2b;
+	height: 90px;
+	width: 285px;
+	float: left;
+	line-height: 90px;
+	font-size: 50px;
+	border-right: 1px solid #484443;
+}
+#bj1 .dreamer p{
+	margin-top: 5px;
+	float: left;
+	color: #9e9e9e;
+	font-size: 20px;
+	font-family:  FZWBJW;
+	
+}
+#bj1 .dreamer .jibian{
+	padding-left: 60px;
+}
+#bj1 .dreamer p span{
+	margin-left: 300px;
+	font-family:"Comic Sans MS", cursive;
+}
+#bj1 .dreamer .zyw{
+	position: relative;
+	top: 83px;
+	left: 15px;
+}
+#banner{
+	height: 534px;
+	width: 1170px;
+	margin: 0 auto;
+}
+#banner h2{
+	margin-top: 40px;
+	margin-bottom: 27px;
+	color: #f75b2b;
+	font-size: 50px;
+}
+#banner ul li{
+	width: 270px;
+	height: 192px;
+	list-style: none;
+	float: left;
+}
+#banner ul li a .workmax{
+	width: 270px;
+	height: 192px;
+}
+#banner ul .work1{
+	margin: 0 0 30px 30px;
+}
+#zhong{
+	height: 201px;
+	width: 1170px;
+	margin: 0 auto;
+	border: 2px solid #cbcbcb;
+	border-style: dashed;
+	background-color: #eeeeee;
+}
+#zhong h3{
+	margin-top: 10px;
+	font-size: 25px;
+	text-align: center;
+	color: #f25c27;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+#zhong h6{
+	text-align: center;
+	margin-top: 23px;
+	color: #726c6e;
+}
+#blog{
+	width: 1170px;
+	height: 555px;
+	margin: 0 auto;
+}
+#blog h2{
+	margin-top: 44px;
+	margin-bottom: 27px;
+	color: #f75b2b;
+	font-size: 50px;
+}
+#blog ul li{
+	height: 270px;
+	list-style: none;
+	float: left;
+}
+#blog ul .bog1{
+	margin-left: 30px;
+}
+#blog ul li h3{
+	font-size: 33px;
+	color: #f75b2b;
+	margin-bottom: 22px;
+}
+#blog ul li .tu{
+	width: 270px;
+	height: 192px;
+	margin-bottom: 16px;
+}
+#blog ul li a{
+	color: #f75b2b;
+	font-size: 16px;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+}
+#blog ul li .tb{
+	height: 18px;
+	width: 270px;
+	margin-top: 16px;
+}
+#blog ul li .tb .tb1{
+	float: left;
+	border-right: 1px solid #858585;
+}
+#blog ul li .tb .tb1 img{
+	float: left;
+	margin-top: 2px;
+}
+#blog ul li .tb .tb1 p{
+	float: left;
+	font-size: 15px;
+	margin-left: 5px;
+	padding-right: 8px;	
+}
+#blog ul li .tb .tb2{
+	float: left;
+}
+#blog ul li .tb .tb2 img{
+	margin-left: 8px;
+
+}
+#blog ul li .tb .tb3{
+	float: right;
+}
+#blog ul li .tb a{
+	font-size: 15px;
+}
+#blog ul li .wenzi{
+	width: 270px;
+	margin-top: 16px;
+	color: #726c6e; 
+}
+#blog ul li .btn{
+	background-color: #f25c27;
+	width: 99px;
+	height: 30px;
+	margin-top: 27px;
+}
+#container{
+	height: 316px;
+	background-image: url(../images/bj1.jpg);
+}
+#container .container1{
+	width: 1170px;
+	margin: 0 auto;
+	
+}
+#container .container1 .container1-1{
+	width: 537px;
+	height: 316px;
+	float: left;
+}
+#container .container1 .container1-1 h3{
+	padding-top: 30px;
+	font-size: 33px;
+	color: #f35a20;
+}
+#container .container1 .container1-1 img{
+	margin-top: 24px;
+	float: left;
+	display: block;
+}
+#container .container1 .container1-1 p{
+	float: left;
+	width: 240px;
+	margin-top: 35px;
+	margin-left: 27px;
+	color: #fff;
+	font-family:"Comic Sans MS", cursive;
+	line-height: 18px;
+}
+#container .container1 .container1-1 p span{
+	color: #9e9e9e;
+	font-family: FZWBJW;
+	font-size: 18px;
+}
+#container .container1-2{
+	float: left;
+	width: 500px;
+	margin-left: 64px;
+}
+#container .container1 .container1-2 h3{
+	padding-top: 30px;
+	font-size: 33px;
+	color: #f35a20;
+}
+#container .container1 .container1-2 ul{
+	float: left;
+	margin-top: 20px;
+	
+}
+#container .container1 .container1-2 .link2{
+	margin-left: 60px;
+}
+#container .container1 .container1-2 ul li{
+	margin-top: 16px;
+	list-style: none;
+}
+#container .container1 .container1-2 ul li a{
+	font-size: 20px;
+	color: #f35a20;
+	text-decoration:none; 
+}
+#container .container1 .container1-2 ul li a img{
+	padding-right: 6px;
+	padding-bottom: 3px;
+}
+#footer{
+	width: 1170px;
+	height: 70px;
+	margin: 0 auto;
+}
+#footer p{
+	float: left;
+	line-height: 70px;
+	color: #49403b; 
+}
+#footer img{
+	float: right;
+	margin-top: 21px;
+	line-height: 70px;
+}

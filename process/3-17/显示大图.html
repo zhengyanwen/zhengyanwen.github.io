@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	.box{
+		height: 100px;
+		width: 510px;
+		margin: 0 auto;
+	}
+	.box li{
+		height: 100px;
+		width: 100px;
+		list-style: none;
+		float: left;
+		border: 1px solid #0ff;
+		overflow: hidden;
+		
+	}
+	.box li img{
+		width: 100px;
+		height: 100px;
+	}
+	.box2 li{
+		height: 200px;
+		width: 200px;
+		list-style: none;
+		display: none;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+
+
+
+
+	</style>
+</head>
+<body>
+	<ul class="box">
+		<li><div class="box1"><img src="images/1.jpg"></div></li>
+		<li><img src="images/2.jpg"></li>
+		<li><img src="images/3.jpg"></li>
+		<li><img src="images/4.jpg"></li>
+		<li><img src="images/5.jpg"></li>
+	</ul>
+	<ul class="box2">
+		<li><img src="images/1.jpg"></li>
+		<li><img src="images/2.jpg"></li>
+		<li><img src="images/3.jpg"></li>
+		<li><img src="images/4.jpg"></li>
+		<li><img src="images/5.jpg"></li>
+	</ul>
+
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+	$(".box li").mouseenter(function(){
+		var index = $(this).index();
+		$(".box2 li").eq(index).show();
+	})
+
+	$("body").mousemove(function(event){
+		var x = event.pageX;
+		var y = event.pageY;
+		$(".box2 li").css({"left":x+10 , "top":y+10})
+
+	})
+
+	$(".box li").mouseleave(function(){
+		var index = $(this).index();
+		$(".box2 li").eq(index).hide();
+	})
+
+	
+
+
+	</script>
+</body>
+</html>

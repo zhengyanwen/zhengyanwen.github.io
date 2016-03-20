@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	.hh{
+		height: 100px;
+		width: 500px;
+	}
+	.hh li{
+		float: left;
+		list-style: none;
+		width: 100px;
+		text-align: center;
+		line-height: 100px;
+		border: 1px solid #0f0;
+	}
+	.box{
+		width: 500px;
+		height: 500px;
+		border: 2px solid #ff0;
+	}
+	.box li{
+		width: 500px;
+		height: 500px;
+	}
+	.box1 .c1{
+		display: none;
+		background-color: #f00;	
+	}
+	.box1 .c2{
+		display: none;
+		background-color: #0f0;
+		
+	}
+	.box1 .c3{
+		display: none;
+		background-color: #00f;
+	
+	}
+	.box1 .c4{
+		display: none;
+		background-color: #0f0;
+		
+	}
+
+
+	</style>
+</head>
+<body>
+
+	<ul class="hh">
+		<li>选项1</li>
+		<li>选项2</li>
+		<li>选项3</li>
+		<li>选项4</li>
+	</ul>
+	<div class="box">
+		<ul class="box1">
+			<li class="c1"></li>
+			<li class="c2"></li>
+			<li class="c3"></li>
+			<li class="c4"></li>
+		</ul>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript">
+	$(".hh li").click(function(){
+		var index = $(this).index();
+		$(".box1 li").eq(index).css("display","block").siblings().css("display","none");
+	})
+
+
+
+
+
+	// $(".hh li").eq(0).click(function(){
+	// 	$(".box").css({"background-color":"#f00"})
+	// })
+	// $(".hh li").eq(1).click(function(){
+	// 	$(".box").css({"background-color":"#0f0"})
+	// })
+	// $(".hh li").eq(2).click(function(){
+	// 	$(".box").css({"background-color":"#00f"})
+	// })
+	// $(".hh li").eq(3).click(function(){
+	// 	$(".box").css({"background-color":"#0ff"})
+	// })
+
+	</script>
+	
+</body>
+</html>
